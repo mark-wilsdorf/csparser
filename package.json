@@ -2,6 +2,23 @@
   "name": "csparser",
   "version": "1.0.0",
   "dependencies": {
+    "config-yml": "latest",
     "mssql": "latest"
-  }
+  },
+  "description": "csparser",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-wilsdorf/csparser.git"
+  },
+  "author": "mark-wilsdorf",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/mark-wilsdorf/csparser/issues"
+  },
+  "homepage": "https://github.com/mark-wilsdorf/csparser#readme"
 }
