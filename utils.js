@@ -4,6 +4,7 @@ const queryString = `
     on sc.Id = cont.SysSchemaId
     where sc.ManagerName = 'SourceCodeSchemaManager'`;
 
+//TODO FIXME: вынести все настройки доступов в отдельный файл, использовать config-yml, добавить этот конфигурационный файл в gitignore
 const sqlConfig = {
     user: "msp",
     password: "msp",
