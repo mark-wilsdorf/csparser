@@ -17,7 +17,31 @@ const sqlConfig = {
     }
 };
 
+const accessModifiers = {
+    private: "private",
+    public: "public",
+    protected: "protected",
+    internal: "internal",
+    protectedInternal: "protected internal",
+    privateProtected: "private protected"
+};
+
+const classType = {
+    default: "",
+    abstract: "abstract",
+    sealed: "sealed",
+    static: "static",
+    partial: "partial"
+};
+
+const methodType = {
+
+};
+
 module.exports = {
-    queryString,
-    config: sqlConfig
+    query: queryString,
+    config: sqlConfig,
+    access: accessModifiers,
+    classType: classType,
+    methodType: methodType
 };
